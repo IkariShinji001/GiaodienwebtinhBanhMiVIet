@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.header{
+    width: 980px;
+    height: 35px;
+    background-color: #10100b;
+}
+.header ul li{
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    border-right: 1px solid white;
+    box-sizing: border-box;
+}
+.header ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    line-height: 35px;
+    margin-right: 16px;
+    font-size: 13px;
+}
+#header_trangchu{
+    color: #8f8806;
+}
+#header_lienhe{
+    border-right: 0;
+}
+.search{
+    float: right;
+    margin-right: 20px;
+}
+.search input{
+    border-radius: 5px;
+    padding: 5.2px 30px;
+}
+.search button{
+    padding: 6.5px 7px;
+    margin-top: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #8f8806;
+    color: white;
+    font-size: 12px;
+}
+.logo{
+    display: flex;
+}
+.logo .logo_Banhmi {
+    width: 110px;
+    height: 85px;
+    background-color: #eead09;
+    border-radius: 50%;
+    margin: 10px auto;
+    position: relative;
+    left:200px
+}
+.logo .logo_VIET {
+    width: 110px;
+    height: 59px;
+    background-color: #a36209;
+    border-radius: 100%;
+    margin: 10px auto; 
+    position: relative;
+    right:180px;
+    top:10px
+}
+.logo .logo_Banhmi h3 {
+    font-size: 30px;
+    font-family: UTM Duepuntozero;
+    text-align: center;
+    color: white; 
+    margin-top: 20px;
+   
+    
+}
+
+.logo .logo_VIET h3 {
+    font-family: UTM Duepuntozero;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    
+}
+
